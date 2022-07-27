@@ -1,0 +1,14 @@
+{
+  "resourceName": "documentstorage",
+  "policyUUID": "6fea08cb",
+  "bucketName": "translatorbucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

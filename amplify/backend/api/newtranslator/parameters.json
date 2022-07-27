@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "newtranslator",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}
