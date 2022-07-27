@@ -4,7 +4,10 @@ import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { listNotes } from './graphql/queries';
 import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
 import { API, Storage } from 'aws-amplify';
+import { Icon } from '@iconify/react';
 const initialFormState = { name: '', description: '' }
+
+
 
 function App() {
   const [notes, setNotes] = useState([]);
@@ -68,6 +71,7 @@ function App() {
       <input type="file"
       onChange={onChange}
       />
+      <Icon icon="simple-icons:microsottranslator" />
       <button onClick={createNote}>Create Note</button>
       <div style={{marginBottom: 30}}>
       {
